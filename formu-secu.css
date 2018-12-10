@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Bellota";
+    src: url('Bellota-Regular.otf');
+}
+main {
+    font-family:"Bellota";
+    background: linear-gradient(120deg,#15c5bd,#303030);
+    width: 100vw;
+    height: 100vh;
+}
+div.formulaire {
+    background: #FFF;
+    height: 70vh;
+    margin-top: 5vh;
+}
+h1.titre {
+    padding-top: 5vh;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+}
+div.p-n {
+    padding: 1rem;
+}
+
+div.submit {
+    display: flex;
+    justify-content: center;
+}
+
+.purple-border .form-control:focus {
+    border: 1px solid #15c5bd;
+    box-shadow: 0 0 0 0.2rem #15c5bd;
+}
+
